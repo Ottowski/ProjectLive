@@ -1,0 +1,67 @@
+.App{
+    height:82vh;
+    background-image: linear-gradient(rgba(0,0,0, 0.2),rgba(0,0,0,0.8)), url("../images/bakgrund.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 20px;
+
+}
+.moreInfo-head{
+    width: 50vw;
+    min-width: 380px;
+    font-size: clamp(3rem, 10vw, 4rem);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.178);
+
+    margin: auto;
+}
+
+.info-container{
+    width: 40vw;
+    max-width: 900px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin:auto;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px 10px black;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.imageBand{
+    margin: auto;
+
+    display:flex;
+}
+.imageBand img{
+    /* min-width: 30vw; */
+    max-height: 80vh;
+    height: 30vh;
+}
+.moreinfo-about{
+    /* min-width: 30vw; */
+    padding: 20px;
+
+}
+.moreinfo-head{
+    font-size: 30px;
+}
+.moreinfo-text{
+    
+}
+
+
+table tbody tr td{
+    text-align: center;
+}
+
+.border-top{
+    border-bottom: 2px solid rgba(126, 122, 122, 0.32);
+}
+.border-right{
+    border-right: 2px solid rgba(126, 122, 122, 0.32);
+}

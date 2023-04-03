@@ -1,0 +1,29 @@
+.login-form{
+    width: 222px;
+    height: 140px;
+    padding: 5px;
+
+    background-color: black;
+    position:absolute;
+    top: 39px;
+    z-index: -5;}
+    .login-input{
+        width:190px;
+        height: 30px;
+
+        margin-bottom: 5px;}
+    .login-submit{
+        width:60px;
+        height:30px;
+        background-color: grey;}
+    .login-error{
+        padding: 0px;
+        margin: 0px;
+        color: red;
+        font-size: 18px;}
+    .login-confirming{
+        text-transform: none ;
+        padding: 0px;
+        margin: 0px;
+        color: rgb(14, 182, 8);
+        font-size: 18px;}

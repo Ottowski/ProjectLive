@@ -1,0 +1,28 @@
+.event-list-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.dateInput {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 20rem;
+    height: 2rem;
+    max-width: 20rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+.event-list-parent-container {
+    height: 60%;
+    overflow-y: scroll;
+    width: 100%;
+}
+.event-list-parent-container::-webkit-scrollbar {
+    display: none;
+    position: relative;
+}

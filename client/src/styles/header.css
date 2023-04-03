@@ -1,0 +1,18 @@
+header {
+    grid-area: header;
+}
+header > h1 > a{
+    font-family: "Brush Script MT";
+    font-size: 60px;
+    display: flex;
+    color: whitesmoke;
+    background-color: #b90101;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+header > h1 > a:hover {
+    color: #abadab;
+    transition: all 0.4s ease;
+}

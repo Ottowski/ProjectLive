@@ -1,0 +1,108 @@
+.user-name{
+    margin-right:10px;
+    color: red;
+}
+
+.nav {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* setting for sticky navbar scroll */
+    top: 0;
+    position: sticky;
+    font-family: Arial;
+    z-index: 2;
+}
+.left, .right{
+    border: 0px solid black;
+    display: flex;
+    background-color: black;}
+.right{
+    align-items: center;}
+.form{
+    width: 200px;
+    height: 140px;
+    padding: 5px;
+
+    background-color: black;
+    position:absolute;
+    top: 39px;
+    z-index: -5;}
+    /* .form-label{} */
+    .form-input{
+        width:190px;
+        height: 30px;
+
+        margin-bottom: 5px;}
+    .form-submit{
+        display:flex;
+        justify-content: space-between;}
+        .form-button{
+            background-color: grey;
+            display:flex;
+            justify-content: space-between;}
+    .form-message{
+        color: red;}
+    .text{
+        padding: 0px;
+        margin: 0px;
+        font-size: 18px;}
+
+.buttonP{
+    margin: 0px;
+    color: white;}
+.button {
+    margin: 0px;
+    padding: 8px;
+    border: 0px solid grey;
+    text-decoration: none;
+    color: white;}
+.button:hover{
+    background-color: #850000;
+    transition: all 0.9s ease;
+}
+.button:focus {
+    background-color: #850000;
+}
+/* navbar icon settings*/
+.icon {
+    padding: 8px;
+    font-size: large;
+    color: white;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 18px;
+    right: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.nav-menu.active {
+    background: black;
+    padding-left: 0px;
+    left: 0;
+    opacity: 1;
+    transition: all 1s ease;
+    list-style: none;
+    z-index: 1;}
+
+.test-div{
+    width: 500px;
+    height: 500px;
+
+    background-color: black;
+
+    position: absolute;
+}
+
+.nav-menu.active li {
+    margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+/* Layout */
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.main {
+    display: flex;
+    flex: 1 0 0;
+}
+/* background picture settings
+.main img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}*/
+
+/* navbar icon settings
+.icon {
+    padding: 8px;
+    font-size: x-large;
+    color: white;
+}*/

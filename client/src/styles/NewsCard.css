@@ -1,0 +1,26 @@
+
+.event-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    background: black;
+    margin: 0 2rem 0 2rem;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    max-height: 100%;
+}
+
+.event-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.event-image {
+    pointer-events: none;
+    user-select: none;
+}

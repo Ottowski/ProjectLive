@@ -1,0 +1,100 @@
+
+.event-page-container{
+    min-height:82vh;
+    padding:20px;
+    margin-bottom:20px;
+    border: 1px solid black;
+
+    background-image: linear-gradient(rgba(0,0,0, 0.2),rgba(0,0,0,0.8)), url("../images/bakgrund.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;}
+    .event-page-head{
+        width: 50vw;
+        min-width: 380px;
+        font-size: clamp(3rem, 10vw, 4rem);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgba(255, 0, 0, 0.178);
+    }
+
+.event-card-container{
+    margin: 10px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;}
+    .event-card{
+        width: 60vw;
+        max-width: 900px;
+        min-width: 380px;
+        height: 120px;
+        overflow: auto;
+        margin: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 20px;
+
+        box-shadow: 5px 5px 5px 5px black;
+
+        position: relative;
+
+        background-color: rgba(58, 58, 58, 0.61);
+        display: flex;
+        justify-content: space-between;}
+        .event-card:hover{
+            width: 65vw;
+            height: 14vh;}
+            .event-left{
+                display:flex;
+            }
+                .event-info > h3{
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: 12px;;
+                    color: white;}
+                    .event-artist{
+                        margin: 0px;
+                        color: red;
+                        font-size: 25px;
+                    }
+                .event-image{
+                    height: 100%;
+                    border-radius: 20px;}
+            .event-right{
+                width: 15vw;
+                margin: 10px;
+
+                display:flex;
+                justify-content: space-between;
+            }
+
+
+
+.event-filter{
+    /* border: 2px solid black; */
+    position: sticky;
+    top:37px;
+    z-index: 3;
+    display: flex;}
+    .event-sort{
+        width: 150px;
+        height: 30px;
+        border:0px;
+    
+        font-size:15px;}
+        .event-reset{
+            height: 26px;
+            padding:2px;
+            border: 0px;
+            font-size: 15px;
+            background-color: rgb(255, 161, 161);
+            display:flex;
+            align-items: center;}
+            .event-reset:hover{
+                background-color: red;
+                cursor: pointer;
+            }
+    

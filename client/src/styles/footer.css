@@ -1,0 +1,19 @@
+/* Footer */
+.footer{
+    position: sticky;
+    bottom: 0px;
+    background-color: black;
+}
+
+/* footer text settings*/
+.footer_text{
+    margin: 0;
+    height: 20px;
+    padding-top: 10px;
+    font-family: Tahoma,Arial,sans-serif;
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

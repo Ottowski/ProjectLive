@@ -1,0 +1,264 @@
+/* All pages */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+/* News */
+.news-main {
+  margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news-object{
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid grey;
+  background-size: contain;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: rgb(233, 207, 207);
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .news-main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .news-object{
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid grey;
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: rgb(233, 207, 207);
+    border-radius: 20px;
+  }
+}
+
+.artistInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artistBox {
+  display: flex;
+  height: 50vh;
+  width: 60vw;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.artistBox img {
+  width: 50%;
+}
+
+.artistText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.buyButton {
+  background: red;
+  color: white;
+  padding: 2%;
+  text-decoration: none;
+  margin: 2%;
+}
+
+.artistNav {
+  width: 20vw;
+  height: 20vh;
+}
+
+/* Events Page */
+
+.eventDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.events-object{
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 3px solid grey;
+  width: 80%;
+  list-style-type: none;
+  background-size: contain;
+  background-position: right top;
+  background-color: rgba(98, 98, 98, 0.45);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px grey;
+  
+}
+
+.events-object li {
+  margin: 0;
+}
+
+.artist-img{
+  margin-top: 10px;
+  max-width: 80%
+
+}
+.select-date{
+  border: 2px solid wheat;
+  color: white;
+  background-color: black;
+  padding: 2vh;
+  margin-left: 25px;
+}
+
+
+@media only screen and (min-width: 400px) {
+  .events-object {
+
+  background-size: 25%;
+  }
+}
+
+.events-main {
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+/* Main Page */
+.main-info {
+  padding-top:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  background-image: linear-gradient(rgba(0,0,0, 0.2),rgba(0,0,0,0.8)), url("../images/bakgrund.jpg");
+
+  min-height: 82vh;
+  width: 100%;
+
+  background-attachment: fixed;
+  background-size: cover;
+  
+  
+}
+.today-events-header {
+  
+  width: 50vw;
+  min-width: 380px;
+  font-size: clamp(3rem, 10vw, 4rem);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0.178); /*DETTA ÄR PÅ MAIN PAGE*/
+  margin: 0;
+}
+
+
+.main-box{
+
+
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+  
+  background-color: rgb(63, 48, 48);
+  position: relative;
+  z-index: 1;
+  opacity: 0.9;
+  border-radius: 30px;
+  background-image: url("../images/pic2.webp");
+  background-position: 100% 0%;
+  max-height: 200px;
+}
+.img-main {
+  position: relative;
+  width: 900px;
+  z-index:0;
+  height: 100%;
+
+
+  width: 100%;
+  object-fit: fill;
+
+}
+
+.ticketButton {
+  align-self: center;
+  background-color: rgb(185, 185, 185);
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px;
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  border-color: black;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.ticketButton:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 3px, 0);
+}
+
+.ticketButton:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
+
+
+

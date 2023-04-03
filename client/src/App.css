@@ -1,0 +1,119 @@
+/*@import "./styles/pages.css";*/
+
+*{
+    border: 0px solid black;
+  }
+  
+  #root{
+    max-width: 900px;
+  
+    margin: 0px;
+    padding: 0px;
+
+    background-color: aqua;
+  }
+  
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  #navbar_logo {
+    background-color: rgb(22, 136, 125);
+    background-image: linear-gradient(to top, rgb(43, 23, 160) 0%, pink 100%);
+    color: white;
+    cursor: pointer;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+  #navbar_logo:visited {
+    color: white;
+  }
+  
+  .links{
+    border: 2px solid black;
+    grid-area: links;
+  }
+  .main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+  }
+  .footer{
+    grid-area: footer;
+    border: 1px solid black;
+  }
+  
+  .eventTicket {
+    display: flex;
+    width: 50vw;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 5vh;
+  }
+  
+  .eventPic {
+    height: 20vh;
+  }
+  
+  .eventInfo {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+  }
+
+  .eventInfo p {
+    margin: 0;
+  }
+  
+  .nav {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    background-color: rgb(204, 64, 39);
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    .left, .right{
+      border: 0px solid black;
+      display: flex;
+      background-color: brown;
+    }
+    /* .left{
+    } */
+    .right{
+      align-items: center;
+    }
+    .buttonP{
+      margin: 0px;
+  
+      color: white;
+    }
+    .button {
+      margin: 0px;
+      padding: 8px;
+      border: 0px solid grey;
+  
+      text-decoration: none;
+      color: white;
+    }
+    .button:hover{
+      color: green;
+    }
+    .right .button
+    {
+      /* width: 100px; */
+      /* background-color: rgb(161, 95, 95); */
+    }

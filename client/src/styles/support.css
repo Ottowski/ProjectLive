@@ -1,0 +1,110 @@
+.supportText {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+}
+
+.supportText > p {
+    font-size: 2.8rem;
+    font-family: "Trebuchet MS";
+    margin: 20px
+}
+
+.supportEmail {
+    margin-left: 80px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.inputEmail {
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.supportPage {
+    height: 82vh;
+    background-image: linear-gradient(rgba(0,0,0, 0.2),rgba(0,0,0,0.8)), url("../images/bakgrund.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.supportTitle{
+    width: 50vw;
+    min-width: 380px;
+    margin: 20px;
+    font-size: clamp(3rem, 10vw, 4rem);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.178);
+}
+
+.supportForm {
+    margin-bottom: 20px;
+}
+
+.errorMessage {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+@media only screen and (max-width: 700px) {
+    .supportText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid grey;
+        border-radius: 20px;
+        width: 80vw;
+        height: 300px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .supportForm {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .supportEmail {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    .inputEmail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24%;
+        width: 200px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .supportText > p {
+        font-size: 1.6rem;
+        font-family: "Trebuchet MS";
+        margin: 20px
+    }
+}
